@@ -1,0 +1,91 @@
+
+.banner {
+    background-image: url("../assets/imgs/Banner-BB.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.div-banner {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    gap: 20px;
+}
+
+.div-banner p {
+    font-size: 1.5em;
+}
+
+.div-banner h2 {
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+.filtro, .pesquisa  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+button, input, select {
+    height: 30px;
+    width: 250px;
+
+    background-color: #000000;
+    border-radius: 7px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.filmes-series {
+    padding: 50px;
+}
+
+.filmes-series h2{
+    font-size: 1.5em;
+}
+
+.card-container {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    height: 180px;
+    width: 120px;
+
+    background-image: url("../assets/imgs/eassimqueacaba.webp");
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
