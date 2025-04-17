@@ -58,3 +58,32 @@ img {
     margin-right: 10px;
     margin-left: 10px;
 }
+
+.hamburguer-manu{
+    display: none;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 15px 20px;
+        height: 60px;
+        font-size: 1em;
+    }
+
+    .hamburguer-manu {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
